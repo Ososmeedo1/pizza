@@ -1,0 +1,547 @@
+{
+  "common": {
+    "appName": "بيزاتو"
+  },
+  "home": {
+    "metadataTitle": "بيزاتو — بيتزا ومقبلات وسلطات في القاهرة",
+    "metadataDescription": "اطلب من بيزاتو: بيتزا مَخبوزة على الحجر ومقبلات وسلطات، تُحضَّر طازجة يومياً في القاهرة — اتصل بنا لتقديم طلبك.",
+    "hero": {
+      "label": "بيتزا طازجة، تُحضَّر يومياً في القاهرة",
+      "overline": "طازج يومياً",
+      "title": "بيتزا تستحق الطلب. دائماً.",
+      "subtitle": "بيتزا مَخبوزة على الحجر، عجينة طازجة ومكونات حقيقية — اختر مقاسك، أضف إضافاتك، ثم اتصل بنا لتقديم طلبك.",
+      "ctaPrimary": "تصفّح القائمة"
+    },
+    "marquee": {
+      "woodFired": "على الخشب",
+      "freshDough": "عجينة طازجة يومياً",
+      "cairo": "القاهرة",
+      "callToOrder": "اطلب بالاتصال"
+    },
+    "categories": {
+      "pizzaStylesTitle": "أنواع البيتزا",
+      "moreCategoriesTitle": "أقسام أخرى",
+      "viewAll": "عرض الكل",
+      "ariaLabel": "الأقسام"
+    },
+    "featured": {
+      "title": "بيتزا مميزة",
+      "viewAll": "عرض كل البيتزا",
+      "orderCta": "اطلب",
+      "emptyTitle": "لا توجد بيتزا مميزة بعد",
+      "emptyDescription": "اتصل بنا لتعرف أي بيتزا تجربها أولاً."
+    },
+    "sidesSpotlight": {
+      "title": "على الجانب",
+      "sidesTitle": "مقبلات",
+      "saladsTitle": "سلطات",
+      "orderCta": "اطلب"
+    },
+    "whyChooseUs": {
+      "title": "لماذا بيزاتو",
+      "freshDough": {
+        "title": "عجينة طازجة يومياً",
+        "description": "كل بيتزا تبدأ بعجينة تُعجن وتُخمَّر في صباح اليوم نفسه."
+      },
+      "cairoFlavors": {
+        "title": "نكهات القاهرة المفضلة",
+        "description": "حشوات كبيرة وواثقة مبنية على ما تحبه هذه المدينة."
+      },
+      "phoneOrdering": {
+        "title": "اطلب بسهولة بالاتصال",
+        "description": "مكالمة واحدة سريعة وتصل بيتزاك طازجة من الفرن."
+      }
+    },
+    "social": {
+      "title": "تابعنا"
+    },
+    "contactCta": {
+      "title": "جعان بالفعل؟",
+      "subtitle": "اتصل بنا — سنؤكد طلبك ونبدأ تجهيزه.",
+      "callButton": "اطلب بالاتصال",
+      "unconfiguredChannel": "قناة الاتصال غير مُجهّزة",
+      "contactButton": "تواصل معنا"
+    }
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "about": "من نحن",
+    "contact": "تواصل معنا",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "skipToContent": "تخطَّ إلى المحتوى"
+  },
+  "lang": {
+    "label": "اللغة",
+    "switchTo": "التبديل إلى الإنجليزية",
+    "arabic": "العربية",
+    "english": "English"
+  },
+  "theme": {
+    "label": "تبديل الوضع الليلي"
+  },
+  "footer": {
+    "links": "روابط",
+    "contact": "تواصل معنا",
+    "followUs": "تابعنا",
+    "address": "العنوان",
+    "openingHours": "ساعات العمل",
+    "instagram": "انستغرام",
+    "facebook": "فيسبوك",
+    "madeBy": "صممه أسامة الجمل",
+    "rights": "© {year} {name}. جميع الحقوق محفوظة."
+  },
+  "storefront": {
+    "filters": {
+      "searchPlaceholder": "ابحث في القائمة…",
+      "allCategories": "كل الفئات",
+      "clearFilters": "مسح عوامل التصفية"
+    }
+  },
+  "products": {
+    "metadataTitle": "المنيو | بيزاتو",
+    "metadataDescription": "تصفّح قائمة بيزاتو: بيتزا مَخبوزة على الحجر حسب الفئة، ومقبلات وسلطات وحلويات ومشروبات — اتصل بنا لتقديم طلبك.",
+    "title": "قائمتنا",
+    "subtitle": "بيتزا ومقبلات وسلطات، طازجة — اتصل بنا لتقديم طلبك.",
+    "emptyTitle": "لا توجد منتجات بعد",
+    "emptyDescription": "قائمتنا قيد التحضير. تفضَّل بالعودة قريباً.",
+    "unavailable": "غير متوفر حالياً",
+    "new": "جديد",
+    "price": "{price} ج.م",
+    "fromPrice": "من {price} ج.م",
+    "resultsCount": "{count} عنصر",
+    "menuNavLabel": "أقسام المنيو",
+    "jumpNav": "الانتقال إلى {section}",
+    "pagination": {
+      "label": "ترقيم الصفحات",
+      "pageLabel": "صفحة",
+      "ofLabel": "من {totalPages}"
+    }
+  },
+  "productDetails": {
+    "breadcrumbs": "مسار التنقل",
+    "optionsTitle": "اختر خياراتك",
+    "addOnsLabel": "إضافات",
+    "total": "المجموع",
+    "cta": "اطلب بالاتصال",
+    "relatedTitle": "قد يعجبك أيضاً",
+    "currency": "ج.م",
+    "unconfiguredChannel": "قناة الاتصال غير مُجهّزة",
+    "unitType": {
+      "weight": "اختر الوزن",
+      "pieces": "اختر النكهة",
+      "size": "اختر المقاس"
+    }
+  },
+  "categoryPage": {
+    "breadcrumbs": "مسار التنقل",
+    "breadcrumbHome": "الرئيسية",
+    "breadcrumbCategories": "الفئات",
+    "chipsLabel": "تصفّح الفئات الفرعية",
+    "allCategories": "الكل",
+    "emptyTitle": "لا توجد منتجات في هذه الفئة بعد",
+    "emptyDescription": "نعمل على تجهيز هذه الفئة. تفضَّل بالعودة قريباً."
+  },
+  "addOnsListing": {
+    "metaTitle": "الإضافات",
+    "metaDescription": "تصفّح إضافاتنا: صلصات وأجبان وإضافات تتصدر أي طلب.",
+    "title": "الإضافات",
+    "description": "اختر الإضافات لتخصيص طلبك — بسعر ثابت أو حسب المقاس الذي تختاره.",
+    "emptyTitle": "لا تتوفر إضافات بعد",
+    "emptyDescription": "نعمل على تجهيز إضافات جديدة. تفضَّل بالعودة قريباً."
+  },
+  "about": {
+    "metadataTitle": "من نحن — بيزاتو",
+    "metadataDescription": "قصة بيزاتو: عجينة طازجة وحشوات صادقة وبيتزا بالطريقة التي تريدها القاهرة — تُطلب بمكالمة سريعة.",
+    "hero": {
+      "title": "طازجة من القاهرة",
+      "subtitle": "بيتزا مباشرة: عجينة طازجة كل صباح، حشوات سخية، وطلب لا يستغرق سوى مكالمة سريعة."
+    },
+    "content": {
+      "storyTitle": "قصتنا",
+      "storyParagraph1": "بدأت بيزاتو بقناعة بسيطة: في مدينة تعشق الطعام لهذا الحد، لا ينبغي أن تكون البيتزا مملة أبداً. لذلك نخلط عجينة طازجة كل صباح، ونجهّز حشواتنا، ونخبز كل فطيرة حسب الطلب — لا شيء مجمّد، ولا شيء مُحضَّر من اليوم السابق.",
+      "storyParagraph2": "أبقينا القائمة مركّزة ومألوفة. خضروات، جبن، دجاج، لحم ومأكولات بحرية — كل صنف مبني على مكونات حقيقية كبيرة، وقشرة تستحق مكانها على المائدة.",
+      "philosophyTitle": "فلسفتنا",
+      "philosophyParagraph": "مكونات جيدة، تُطهى جيداً، بسعر عادل. لا حِيَل في القائمة ولا في العملية. إذا كان معروضاً، فهو طازج ويستحق الطلب.",
+      "qualityTitle": "التزامنا بالجودة",
+      "qualityParagraph": "عجينتُنا تُخمَّر طازجة كل يوم. حشواتنا تُوزَّع بسخاء. وإضافاتنا تُسعَّر حسب المقاس الذي تختاره — لتعرف دائماً بالضبط ما الذي تدفع مقابله.",
+      "illustrationLabel": "مَخبوزة طازجة، تُطلب في ثوانٍ"
+    },
+    "cta": {
+      "title": "اكتشف قائمة الليلة.",
+      "button": "تصفّح القائمة"
+    }
+  },
+  "contact": {
+    "metadataTitle": "تواصل معنا — بيزاتو",
+    "metadataDescription": "تواصل مع بيزاتو هاتفياً للطلبات والأسئلة ومعرفة الاتجاهات إلى فروعنا في القاهرة.",
+    "message": "رسالة المحل",
+    "hero": {
+      "title": "لنتحدث عن البيتزا",
+      "subtitle": "اطلب أو اسأل أو مرر علينا — نحن على بُعد مكالمة واحدة."
+    },
+    "info": {
+      "title": "معلومات التواصل",
+      "phone": "الهاتف",
+      "email": "البريد الإلكتروني",
+      "openingHours": "ساعات العمل",
+      "unavailable": "معلومات التواصل غير متوفرة حالياً."
+    },
+    "branches": {
+      "title": "فروعنا",
+      "directions": "الاتجاهات",
+      "call": "اتصل"
+    }
+  },
+  "admin": {
+    "metaTitle": "لوحة الإدارة — بيزاتو",
+    "panelTitle": "لوحة الإدارة",
+    "logout": "تسجيل الخروج",
+    "loginTitle": "تسجيل دخول المدير",
+    "loginDescription": "سجّل دخولك لإدارة بيزاتو.",
+    "registerTitle": "إنشاء حساب المدير",
+    "registerDescription": "إعداد لمرة واحدة لأول حساب مدير.",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "setupToken": "رمز الإعداد",
+    "emailPlaceholder": "admin@example.com",
+    "passwordPlaceholder": "••••••••",
+    "confirmPasswordPlaceholder": "••••••••",
+    "setupTokenPlaceholder": "أدخل رمز الإعداد لمرة واحدة",
+    "loginButton": "تسجيل الدخول",
+    "registerButton": "إنشاء الحساب",
+    "loginError": "البريد الإلكتروني أو كلمة المرور غير صحيحة.",
+    "registerError": "فشل التسجيل. حاول مرة أخرى.",
+    "invalidToken": "رمز الإعداد غير صالح أو مفقود.",
+    "adminExists": "يوجد حساب مدير بالفعل. تم تعطيل التسجيل.",
+    "goToLogin": "مسجّل بالفعل؟ سجّل الدخول",
+    "goToRegister": "المرة الأولى هنا؟ أنشئ حسابك",
+    "validation": {
+      "required": "هذا الحقل مطلوب.",
+      "invalidEmail": "أدخل بريداً إلكترونياً صالحاً.",
+      "invalidToken": "يجب أن يكون رمز الإعداد 16 حرفاً على الأقل.",
+      "passwordMin": "يجب أن تكون كلمة المرور 8 أحرف على الأقل.",
+      "passwordsMismatch": "كلمتا المرور غير متطابقتين."
+    },
+    "toggleMenu": "تبديل قائمة التنقل",
+    "nav": {
+      "dashboard": "لوحة التحكم",
+      "categories": "الفئات",
+      "products": "المنتجات",
+      "addOns": "الإضافات",
+      "settings": "الإعدادات"
+    },
+    "dashboard": {
+      "metaTitle": "لوحة التحكم — بيزاتو",
+      "welcomeTitle": "مرحباً بك في لوحة تحكم الإدارة",
+      "welcomeDescription": "أدر بيزاتو من هنا — الفئات والمنتجات والإضافات والإعدادات.",
+      "totalCategories": "إجمالي الفئات",
+      "totalProducts": "إجمالي المنتجات",
+      "totalAddOns": "إجمالي الإضافات"
+    },
+    "categories": {
+      "metaTitle": "الفئات — بيزاتو",
+      "title": "الفئات",
+      "description": "أدر فئات متجرك. يؤدي التعطيل إلى إخفائها من واجهة المتجر.",
+      "createNew": "إنشاء فئة",
+      "name": "الاسم",
+      "slug": "المعرف",
+      "status": "الحالة",
+      "active": "نشطة",
+      "inactive": "معطّلة",
+      "actions": "إجراءات",
+      "toggle": "تبديل التفعيل",
+      "delete": "حذف",
+      "edit": "تعديل",
+      "confirmDelete": "حذف هذه الفئة؟ لا يمكن التراجع عن هذا الإجراء.",
+      "deleteErrorHasProducts": "لا يمكن حذف فئة تحتوي على منتجات نشطة. انقل أو عطّل منتجاتها أولاً.",
+      "actionError": "حدث خطأ ما. حاول مرة أخرى.",
+      "emptyTitle": "لا توجد فئات بعد",
+      "emptyDescription": "أنشئ فئتك الأولى لتبدأ تنظيم منتجاتك."
+    },
+    "categoryForm": {
+      "createTitle": "إنشاء فئة",
+      "editTitle": "تعديل الفئة",
+      "sectionBasic": "البيانات الأساسية",
+      "sectionImage": "الصورة",
+      "sectionSettings": "الإعدادات",
+      "labels": {
+        "nameAr": "الاسم (بالعربية)",
+        "nameEn": "الاسم (بالإنجليزية)",
+        "slug": "المعرف (Slug)",
+        "descriptionAr": "الوصف (بالعربية)",
+        "descriptionEn": "الوصف (بالإنجليزية)",
+        "imageUrl": "رابط الصورة",
+        "isActive": "نشطة",
+        "parent": "الفئة الأم",
+        "sortOrder": "ترتيب الفرز"
+      },
+      "placeholders": {
+        "nameAr": "مثال: بيتزا الجبن",
+        "nameEn": "مثال: Cheese Pizza",
+        "slug": "cheese-pizza",
+        "descriptionAr": "وصف قصير بالعربية…",
+        "descriptionEn": "وصف قصير بالإنجليزية…",
+        "imageUrl": "https://ik.imagekit.io/yourkit/category.jpg",
+        "parentNone": "بدون فئة أم (فئة رئيسية)"
+      },
+      "parentHint": "اتركه فارغاً لفئة رئيسية تظهر في القائمة الرئيسية.",
+      "submitCreate": "إنشاء الفئة",
+      "submitUpdate": "حفظ التغييرات",
+      "cancel": "إلغاء",
+      "successCreate": "تم إنشاء الفئة بنجاح.",
+      "successUpdate": "تم تحديث الفئة بنجاح.",
+      "errorSlugExists": "توجد فئة بهذا المعرف بالفعل.",
+      "errorNotFound": "لم يتم العثور على الفئة.",
+      "errorGeneric": "حدث خطأ ما. حاول مرة أخرى.",
+      "errorParentNotFound": "الفئة الأم المختارة لم تعد موجودة.",
+      "errorParentCycle": "لا يمكن جعل هذه الفئة أباً لنفسها أو لأحد فروعها.",
+      "imageAltFallback": "صورة الفئة",
+      "validation": {
+        "required": "هذا الحقل مطلوب.",
+        "invalidSlug": "استخدم أحرفاً لاتينية صغيرة وأرقاماً وشرطات فقط.",
+        "invalidUrl": "أدخل رابطاً صالحاً يبدأ بـ http:// أو https://.",
+        "minZero": "يجب أن تكون القيمة صفراً أو أكثر.",
+        "invalidParent": "اختر فئة أم صالحة أو اتركها فارغة."
+      }
+    },
+    "addons": {
+      "metaTitle": "الإضافات — بيزاتو",
+      "title": "الإضافات",
+      "description": "أدر الإضافات الاختيارية المعروضة في صفحة المنتج. إضافات المقاسات تُربط بخيارات المقاس المناسبة.",
+      "createNew": "إنشاء إضافة",
+      "name": "الاسم",
+      "price": "السعر",
+      "status": "الحالة",
+      "active": "نشطة",
+      "inactive": "معطّلة",
+      "actions": "إجراءات",
+      "flatLabel": "سعر ثابت",
+      "bySizeLabel": "سعر حسب المقاس",
+      "currency": "ج.م",
+      "toggle": "تبديل التفعيل",
+      "delete": "حذف",
+      "edit": "تعديل",
+      "confirmDelete": "حذف هذه الإضافة؟ لا يمكن التراجع عن هذا الإجراء.",
+      "actionError": "حدث خطأ ما. حاول مرة أخرى.",
+      "emptyTitle": "لا توجد إضافات بعد",
+      "emptyDescription": "أنشئ إضافتك الأولى لتبدأ تقديم الإضافات الاختيارية."
+    },
+    "addOnForm": {
+      "createTitle": "إنشاء إضافة",
+      "editTitle": "تعديل الإضافة",
+      "sectionBasic": "البيانات الأساسية",
+      "sectionPricing": "التسعير",
+      "sectionSettings": "الإعدادات",
+      "labels": {
+        "nameAr": "الاسم (بالعربية)",
+        "nameEn": "الاسم (بالإنجليزية)",
+        "priceMode": "طريقة التسعير",
+        "priceModeFlat": "سعر ثابت",
+        "priceModeBySize": "سعر حسب المقاس",
+        "price": "السعر",
+        "isActive": "نشطة",
+        "sortOrder": "ترتيب الفرز"
+      },
+      "placeholders": {
+        "nameAr": "مثال: مشروم",
+        "nameEn": "مثال: Mushroom",
+        "price": "مثال: 35"
+      },
+      "priceModeHint": "السعر الثابت يضيف مبلغاً محدداً للطلب. أما حسب المقاس فيتطلب سعراً لكل مقاس.",
+      "bySizeHint": "أدخل سعراً لمقاس واحد على الأقل؛ تُخفى المقاسات الفارغة.",
+      "submitCreate": "إنشاء الإضافة",
+      "submitUpdate": "حفظ التغييرات",
+      "cancel": "إلغاء",
+      "successCreate": "تم إنشاء الإضافة بنجاح.",
+      "successUpdate": "تم تحديث الإضافة بنجاح.",
+      "errorNotFound": "لم يتم العثور على الإضافة.",
+      "errorGeneric": "حدث خطأ ما. حاول مرة أخرى.",
+      "validation": {
+        "required": "هذا الحقل مطلوب.",
+        "invalidPriceMode": "اختر طريقة تسعير صالحة.",
+        "minZero": "يجب أن تكون القيمة صفراً أو أكثر.",
+        "flatPriceRequired": "أدخل السعر لطريقة التسعير الثابت.",
+        "atLeastOneSize": "أدخل سعراً لمقاس واحد على الأقل."
+      }
+    },
+    "products": {
+      "metaTitle": "المنتجات — بيزاتو",
+      "title": "المنتجات",
+      "description": "أدر منتجات متجرك ومجموعات الخيارات الخاصة بها.",
+      "createNew": "إنشاء منتج",
+      "searchPlaceholder": "ابحث بالاسم…",
+      "filterCategory": "الفئة",
+      "allCategories": "كل الفئات",
+      "clearFilters": "مسح عوامل التصفية",
+      "emptyTitle": "لا توجد منتجات",
+      "emptyDescription": "عدّل البحث أو عوامل التصفية، أو أنشئ منتجاً جديداً.",
+      "columns": {
+        "image": "الصورة",
+        "name": "الاسم",
+        "category": "الفئة",
+        "price": "السعر",
+        "status": "الحالة",
+        "actions": "إجراءات"
+      },
+      "active": "نشط",
+      "inactive": "معطّل",
+      "available": "متوفر",
+      "soldOut": "نفد الكمية",
+      "featured": "مميز",
+      "toggleActive": "تبديل التفعيل",
+      "toggleFeatured": "تبديل التمييز",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "confirmDelete": "حذف هذا المنتج؟ لا يمكن التراجع عن هذا الإجراء.",
+      "actionError": "حدث خطأ ما. حاول مرة أخرى.",
+      "currency": "ج.م",
+      "pagination": {
+        "label": "ترقيم الصفحات",
+        "pageLabel": "صفحة",
+        "ofLabel": "من {totalPages}"
+      }
+    },
+    "productForm": {
+      "createTitle": "إنشاء منتج",
+      "editTitle": "تعديل المنتج",
+      "sectionBasic": "البيانات الأساسية",
+      "sectionPricing": "السعر والحالة",
+      "sectionImages": "الصور",
+      "labels": {
+        "nameAr": "الاسم (بالعربية)",
+        "nameEn": "الاسم (بالإنجليزية)",
+        "slug": "المعرف (Slug)",
+        "descriptionAr": "الوصف (بالعربية)",
+        "descriptionEn": "الوصف (بالإنجليزية)",
+        "category": "الفئة",
+        "sizesPrices": "المقاسات والأسعار",
+        "basePrice": "السعر الأساسي (بدون مقاسات)",
+        "isActive": "نشط",
+        "isAvailable": "متوفر",
+        "isFeatured": "مميز",
+        "isNew": "جديد",
+        "sortOrder": "ترتيب الفرز",
+        "imageUrl": "رابط الصورة",
+        "isPrimary": "الصورة الرئيسية",
+        "required": "إجباري",
+        "ingredients": "المكونات",
+        "ingredientNameAr": "اسم المكوّن (بالعربية)",
+        "ingredientNameEn": "اسم المكوّن (بالإنجليزية)"
+      },
+      "sizeNames": {
+        "S": "S — صغير",
+        "M": "M — وسط",
+        "L": "L — كبير"
+      },
+      "placeholders": {
+        "nameAr": "مثال: بيتزا الخضروات",
+        "nameEn": "مثال: Vegetable Pizza",
+        "slug": "vegetable-pizza",
+        "descriptionAr": "وصف قصير بالعربية…",
+        "descriptionEn": "وصف قصير بالإنجليزية…",
+        "categorySelect": "اختر فئة",
+        "sizePrice": "السعر (ج.م)",
+        "imageUrl": "https://ik.imagekit.io/yourkit/product.jpg",
+        "ingredientNameAr": "مثال: جبن موزاريلا",
+        "ingredientNameEn": "مثال: Mozzarella"
+      },
+      "addImage": "إضافة صورة",
+      "removeImage": "إزالة الصورة",
+      "addIngredient": "إضافة مكوّن",
+      "removeIngredient": "إزالة المكوّن",
+      "sizesPricesHint": "حدد سعراً لكل مقاس توفره. اترك المقاس فارغاً لإخفائه. إذا كانت جميع المقاسات فارغة، يُباع المنتج بالسعر الأساسي أدناه.",
+      "ingredientsHint": "تُعرض أسفل وصف المنتج. تظهر الأسماء باللغتين.",
+      "optgroupPizzaTypes": "أنواع البيتزا",
+      "optgroupOtherCategories": "أقسام أخرى",
+      "isNewHint": "يعرض شارة جديد في واجهة المتجر.",
+      "submitCreate": "إنشاء المنتج",
+      "submitUpdate": "حفظ التغييرات",
+      "cancel": "إلغاء",
+      "successCreate": "تم إنشاء المنتج بنجاح.",
+      "successUpdate": "تم تحديث المنتج بنجاح.",
+      "errorSlugExists": "يوجد منتج بهذا المعرف بالفعل.",
+      "errorNotFound": "لم يتم العثور على المنتج.",
+      "errorGeneric": "حدث خطأ ما. حاول مرة أخرى.",
+      "imageAltFallback": "صورة المنتج",
+      "validation": {
+        "required": "هذا الحقل مطلوب.",
+        "invalidSlug": "استخدم أحرفاً لاتينية صغيرة وأرقاماً وشرطات فقط.",
+        "invalidCategory": "اختر فئة صالحة.",
+        "minZero": "يجب أن تكون القيمة صفراً أو أكثر.",
+        "sizeOrBaseRequired": "حدد سعراً أساسياً أو سعر مقاس واحد على الأقل."
+      }
+    },
+    "settings": {
+      "pageTitle": "إعدادات الموقع"
+    },
+    "settingsForm": {
+      "sectionBrand": "الهوية التجارية",
+      "sectionContact": "التواصل الاجتماعي",
+      "sectionBranches": "الفروع",
+      "sectionLocation": "الموقع والساعات",
+      "sectionMessages": "الرسائل",
+      "labels": {
+        "brandNameAr": "اسم العلامة التجارية (بالعربية)",
+        "brandNameEn": "اسم العلامة التجارية (بالإنجليزية)",
+        "phone": "الهاتف",
+        "email": "البريد الإلكتروني",
+        "instagram": "انستغرام",
+        "facebook": "فيسبوك",
+        "branchNameAr": "اسم الفرع (بالعربية)",
+        "branchNameEn": "اسم الفرع (بالإنجليزية)",
+        "branchAddressAr": "عنوان الفرع (بالعربية)",
+        "branchAddressEn": "عنوان الفرع (بالإنجليزية)",
+        "branchPhone": "هاتف الفرع",
+        "branchLocationLink": "رابط موقع الفرع (خرائط جوجل)",
+        "openingHoursAr": "ساعات العمل (بالعربية)",
+        "openingHoursEn": "ساعات العمل (بالإنجليزية)",
+        "contactMessageAr": "رسالة التواصل (بالعربية)",
+        "contactMessageEn": "رسالة التواصل (بالإنجليزية)"
+      },
+      "placeholders": {
+        "brandNameAr": "مثال: بيزاتو",
+        "brandNameEn": "مثال: PIZZATO",
+        "phone": "+123 456 7890",
+        "email": "hello@pizzato.eg",
+        "branchNameAr": "مثال: فرع القاهرة",
+        "branchNameEn": "مثال: Cairo Branch",
+        "branchAddressAr": "مثال: شارع التحلية، الرياض",
+        "branchAddressEn": "مثال: 123 Tahlia St, Riyadh",
+        "instagram": "https://instagram.com/youraccount",
+        "facebook": "https://facebook.com/youraccount",
+        "openingHoursAr": "السبت - الخميس: 9 صباحاً - 11 مساءً",
+        "openingHoursEn": "Sat–Thu: 9 AM – 11 PM",
+        "locationLink": "https://maps.app.goo.gl/...",
+        "contactMessageAr": "رسالة ترحيبية للزبائن",
+        "contactMessageEn": "A welcome message for customers"
+      },
+      "addBranch": "إضافة فرع",
+      "removeBranch": "حذف",
+      "branchCard": "الفرع {number}",
+      "branchHint": "أضف كل فروع المتجر. يظهر كل فرع في صفحة التواصل بعنوانه وهاتفه ورابط الاتجاهات الخاص به.",
+      "submit": "حفظ الإعدادات",
+      "successUpdate": "تم حفظ الإعدادات بنجاح.",
+      "errorGeneric": "حدث خطأ ما. حاول مرة أخرى.",
+      "logoAltFallback": "شعار الموقع",
+      "faviconAltFallback": "أيقونة الموقع",
+      "validation": {
+        "required": "هذا الحقل مطلوب.",
+        "invalidUrl": "أدخل رابطاً صالحاً يبدأ بـ http:// أو https://.",
+        "invalidCoordinate": "أدخل إحداثية صالحة ضمن النطاق المسموح.",
+        "invalidPhone": "يجب أن يحتوي الهاتف على أرقام ومسافات وشرطات وأقواس فقط، مع علامة + اختيارية في البداية."
+      }
+    },
+    "imageUpload": {
+      "uploadPrompt": "انقر للرفع أو اسحب الصورة وأفلتها هنا",
+      "uploading": "جارٍ الرفع…",
+      "remove": "إزالة الصورة",
+      "replace": "استبدال الصورة",
+      "errorInvalidType": "يُسمح بملفات الصور فقط",
+      "errorTooLarge": "يجب ألا يتجاوز حجم الملف 5 ميجابايت",
+      "errorUploadFailed": "فشل رفع الصورة"
+    }
+  }
+}

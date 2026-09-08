@@ -1,0 +1,547 @@
+{
+  "common": {
+    "appName": "PIZZATO"
+  },
+  "home": {
+    "metadataTitle": "PIZZATO — Pizza, Sides & Salads in Cairo",
+    "metadataDescription": "Order from PIZZATO: stone-baked pizzas, sides and salads, made fresh daily in Cairo — call to place your order.",
+    "hero": {
+      "label": "Pizza, made fresh daily in Cairo",
+      "overline": "Fresh Daily",
+      "title": "Pizza worth ordering. Every time.",
+      "subtitle": "Stone-baked pizzas, fresh dough, real toppings — pick your size, add extras, then call us to place your order.",
+      "ctaPrimary": "Browse the Menu"
+    },
+    "marquee": {
+      "woodFired": "Wood-Fired",
+      "freshDough": "Fresh Dough Daily",
+      "cairo": "Cairo",
+      "callToOrder": "Call to Order"
+    },
+    "categories": {
+      "pizzaStylesTitle": "Pizza Styles",
+      "moreCategoriesTitle": "More Categories",
+      "viewAll": "View all",
+      "ariaLabel": "Categories"
+    },
+    "featured": {
+      "title": "Featured Pizzas",
+      "viewAll": "View all pizzas",
+      "orderCta": "Order",
+      "emptyTitle": "No featured pizzas yet",
+      "emptyDescription": "Call us to find out which pie to try first."
+    },
+    "sidesSpotlight": {
+      "title": "On the Side",
+      "sidesTitle": "Sides",
+      "saladsTitle": "Salads",
+      "orderCta": "Order"
+    },
+    "whyChooseUs": {
+      "title": "Why PIZZATO",
+      "freshDough": {
+        "title": "Fresh Dough Daily",
+        "description": "Every pizza starts with dough mixed and proofed the same morning."
+      },
+      "cairoFlavors": {
+        "title": "Cairo's Favorite Flavors",
+        "description": "Big, confident toppings built around the flavors this city loves."
+      },
+      "phoneOrdering": {
+        "title": "Easy Phone Ordering",
+        "description": "One quick call and your pizza is fresh out of the oven."
+      }
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "contactCta": {
+      "title": "Hungry already?",
+      "subtitle": "Call us — we will confirm your order and get it started.",
+      "callButton": "Call to Order",
+      "unconfiguredChannel": "Call channel not configured",
+      "contactButton": "Contact Us"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to content"
+  },
+  "lang": {
+    "label": "Language",
+    "switchTo": "Switch to Arabic",
+    "arabic": "العربية",
+    "english": "English"
+  },
+  "theme": {
+    "label": "Toggle dark mode"
+  },
+  "footer": {
+    "links": "Links",
+    "contact": "Contact",
+    "followUs": "Follow us",
+    "address": "Address",
+    "openingHours": "Opening hours",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "madeBy": "Made by Osama El-Gamal",
+    "rights": "© {name}. All rights reserved."
+  },
+  "storefront": {
+    "filters": {
+      "searchPlaceholder": "Search the menu…",
+      "allCategories": "All categories",
+      "clearFilters": "Clear filters"
+    }
+  },
+  "products": {
+    "metadataTitle": "Menu | PIZZATO",
+    "metadataDescription": "Browse the PIZZATO menu: stone-baked pizzas by category, sides, salads, desserts and drinks — call to place your order.",
+    "title": "Our Menu",
+    "subtitle": "Pizzas, sides and salads, made fresh — call to place your order.",
+    "emptyTitle": "No products yet",
+    "emptyDescription": "Our menu is being prepared. Check back soon.",
+    "unavailable": "Currently unavailable",
+    "new": "New",
+    "price": "{price} EGP",
+    "fromPrice": "From {price} EGP",
+    "resultsCount": "{count} items found",
+    "menuNavLabel": "Menu sections",
+    "jumpNav": "Jump to {section}",
+    "pagination": {
+      "label": "Pagination",
+      "pageLabel": "Page",
+      "ofLabel": "of {totalPages}"
+    }
+  },
+  "productDetails": {
+    "breadcrumbs": "Breadcrumbs",
+    "optionsTitle": "Choose your options",
+    "addOnsLabel": "Add-ons",
+    "total": "Total",
+    "cta": "Call to Order",
+    "relatedTitle": "You may also like",
+    "currency": "EGP",
+    "unconfiguredChannel": "Call channel not configured",
+    "unitType": {
+      "weight": "Select Weight",
+      "pieces": "Select Flavor",
+      "size": "Select Size"
+    }
+  },
+  "categoryPage": {
+    "breadcrumbs": "Breadcrumbs",
+    "breadcrumbHome": "Home",
+    "breadcrumbCategories": "Categories",
+    "chipsLabel": "Browse subcategories",
+    "allCategories": "All",
+    "emptyTitle": "No products in this category yet",
+    "emptyDescription": "We're restocking this category. Check back soon."
+  },
+  "addOnsListing": {
+    "metaTitle": "Add-Ons",
+    "metaDescription": "Browse our add-ons: sauces, cheeses and topping extras to elevate any order.",
+    "title": "Add-Ons",
+    "description": "Pick your extras to customize an order — flat-priced or sized to your chosen portion.",
+    "emptyTitle": "No add-ons available yet",
+    "emptyDescription": "We are preparing new extras. Check back soon."
+  },
+  "about": {
+    "metadataTitle": "About Us — PIZZATO",
+    "metadataDescription": "The story behind PIZZATO: fresh dough, honest toppings and pizza made the way Cairo wants it — ordered with one quick call.",
+    "hero": {
+      "title": "Made Fresh in Cairo",
+      "subtitle": "Straightforward pizza: fresh dough every morning, generous toppings, and ordering that takes seconds over the phone."
+    },
+    "content": {
+      "storyTitle": "Our Story",
+      "storyParagraph1": "PIZZATO started with one simple belief: in a city that loves food this much, pizza should never be dull. So every morning we mix fresh dough, prep our toppings, and bake each pie to order — nothing frozen, nothing pre-made the day before.",
+      "storyParagraph2": "We kept the menu focused and familiar. Vegetarian, cheese, chicken, meat and seafood — each built around big, real ingredients and a crust that earns its place at the table.",
+      "philosophyTitle": "Our Philosophy",
+      "philosophyParagraph": "Good ingredients, cooked well, priced honestly. No gimmicks on the menu and none in the process. If it is on offer, it is made fresh and worth ordering.",
+      "qualityTitle": "Our Commitment to Quality",
+      "qualityParagraph": "Our dough is proofed fresh daily. Our toppings are portioned generously. And our add-ons are priced by the size you pick — so you always know exactly what you are paying for.",
+      "illustrationLabel": "Baked fresh, ordered in seconds"
+    },
+    "cta": {
+      "title": "See tonight's menu.",
+      "button": "Browse the Menu"
+    }
+  },
+  "contact": {
+    "metadataTitle": "Contact Us — PIZZATO",
+    "metadataDescription": "Reach PIZZATO by phone for orders, questions and directions to our branches in Cairo.",
+    "message": "Shop message",
+    "hero": {
+      "title": "Let's Talk Pizza",
+      "subtitle": "Order, ask, or stop by — we are one call away."
+    },
+    "info": {
+      "title": "Contact information",
+      "phone": "Phone",
+      "email": "Email",
+      "openingHours": "Opening Hours",
+      "unavailable": "Contact information is currently unavailable."
+    },
+    "branches": {
+      "title": "Our Branches",
+      "directions": "Directions",
+      "call": "Call"
+    }
+  },
+  "admin": {
+    "metaTitle": "Admin — PIZZATO",
+    "panelTitle": "Admin Panel",
+    "logout": "Logout",
+    "loginTitle": "Admin Login",
+    "loginDescription": "Sign in to manage PIZZATO.",
+    "registerTitle": "Create Admin Account",
+    "registerDescription": "One-time setup for the first admin account.",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "setupToken": "Setup Token",
+    "emailPlaceholder": "admin@example.com",
+    "passwordPlaceholder": "••••••••",
+    "confirmPasswordPlaceholder": "••••••••",
+    "setupTokenPlaceholder": "Enter the one-time setup token",
+    "loginButton": "Sign In",
+    "registerButton": "Create Account",
+    "loginError": "Invalid email or password.",
+    "registerError": "Registration failed. Please try again.",
+    "invalidToken": "The setup token is invalid or missing.",
+    "adminExists": "An admin account already exists. Registration is disabled.",
+    "goToLogin": "Already registered? Sign in",
+    "goToRegister": "First time here? Set up your account",
+    "validation": {
+      "required": "This field is required.",
+      "invalidEmail": "Please enter a valid email address.",
+      "invalidToken": "The setup token must be at least 16 characters long.",
+      "passwordMin": "Password must be at least 8 characters long.",
+      "passwordsMismatch": "Passwords do not match."
+    },
+    "toggleMenu": "Toggle navigation menu",
+    "nav": {
+      "dashboard": "Dashboard",
+      "categories": "Categories",
+      "products": "Products",
+      "addOns": "Add-ons",
+      "settings": "Settings"
+    },
+    "dashboard": {
+      "metaTitle": "Dashboard — PIZZATO",
+      "welcomeTitle": "Welcome to the Admin Dashboard",
+      "welcomeDescription": "Manage PIZZATO from here — categories, products, add-ons, and settings.",
+      "totalCategories": "Total Categories",
+      "totalProducts": "Total Products",
+      "totalAddOns": "Total Add-ons"
+    },
+    "categories": {
+      "metaTitle": "Categories — PIZZATO",
+      "title": "Categories",
+      "description": "Manage your store categories. Deactivation hides them from the storefront.",
+      "createNew": "Create Category",
+      "name": "Name",
+      "slug": "Slug",
+      "status": "Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "actions": "Actions",
+      "toggle": "Toggle active",
+      "delete": "Delete",
+      "edit": "Edit",
+      "confirmDelete": "Delete this category? This cannot be undone.",
+      "deleteErrorHasProducts": "Cannot delete category with active products. Move or deactivate its products first.",
+      "actionError": "Something went wrong. Please try again.",
+      "emptyTitle": "No categories yet",
+      "emptyDescription": "Create your first category to start organizing your products."
+    },
+    "categoryForm": {
+      "createTitle": "Create Category",
+      "editTitle": "Edit Category",
+      "sectionBasic": "Basic Info",
+      "sectionImage": "Image",
+      "sectionSettings": "Settings",
+      "labels": {
+        "nameAr": "Name (Arabic)",
+        "nameEn": "Name (English)",
+        "slug": "Slug",
+        "descriptionAr": "Description (Arabic)",
+        "descriptionEn": "Description (English)",
+        "imageUrl": "Image URL",
+        "isActive": "Active",
+        "parent": "Parent Category",
+        "sortOrder": "Sort Order"
+      },
+      "placeholders": {
+        "nameAr": "e.g. بيتزا الجبن",
+        "nameEn": "e.g. Cheese Pizza",
+        "slug": "cheese-pizza",
+        "descriptionAr": "A short description in Arabic…",
+        "descriptionEn": "A short description in English…",
+        "imageUrl": "https://ik.imagekit.io/yourkit/category.jpg",
+        "parentNone": "No parent (top-level category)"
+      },
+      "parentHint": "Leave empty for a top-level category shown in the main menu.",
+      "submitCreate": "Create Category",
+      "submitUpdate": "Save Changes",
+      "cancel": "Cancel",
+      "successCreate": "Category created successfully.",
+      "successUpdate": "Category updated successfully.",
+      "errorSlugExists": "A category with this slug already exists.",
+      "errorNotFound": "Category not found.",
+      "errorGeneric": "Something went wrong. Please try again.",
+      "errorParentNotFound": "Selected parent category no longer exists.",
+      "errorParentCycle": "Cannot set this category as its own parent or a descendant of it.",
+      "imageAltFallback": "Category image",
+      "validation": {
+        "required": "This field is required.",
+        "invalidSlug": "Use lowercase letters, numbers, and hyphens only.",
+        "invalidUrl": "Please enter a valid URL starting with http:// or https://.",
+        "minZero": "Must be zero or greater.",
+        "invalidParent": "Please select a valid parent category or leave it empty."
+      }
+    },
+    "addons": {
+      "metaTitle": "Add-ons — PIZZATO",
+      "title": "Add-ons",
+      "description": "Manage optional extras shown on the product page. Size-based add-ons pair with matching size options.",
+      "createNew": "Create Add-on",
+      "name": "Name",
+      "price": "Price",
+      "status": "Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "actions": "Actions",
+      "flatLabel": "Flat price",
+      "bySizeLabel": "Priced by size",
+      "currency": "EGP",
+      "toggle": "Toggle active",
+      "delete": "Delete",
+      "edit": "Edit",
+      "confirmDelete": "Delete this add-on? This cannot be undone.",
+      "actionError": "Something went wrong. Please try again.",
+      "emptyTitle": "No add-ons yet",
+      "emptyDescription": "Create your first add-on to start offering optional extras."
+    },
+    "addOnForm": {
+      "createTitle": "Create Add-on",
+      "editTitle": "Edit Add-on",
+      "sectionBasic": "Basic Info",
+      "sectionPricing": "Pricing",
+      "sectionSettings": "Settings",
+      "labels": {
+        "nameAr": "Name (Arabic)",
+        "nameEn": "Name (English)",
+        "priceMode": "Pricing Mode",
+        "priceModeFlat": "Flat price",
+        "priceModeBySize": "Price by size",
+        "price": "Price",
+        "isActive": "Active",
+        "sortOrder": "Sort Order"
+      },
+      "placeholders": {
+        "nameAr": "e.g. مشروم",
+        "nameEn": "e.g. Mushroom",
+        "price": "e.g. 35"
+      },
+      "priceModeHint": "Flat adds a fixed price to the order. By size requires a price for each size.",
+      "bySizeHint": "Enter a price for at least one size; empty sizes are hidden.",
+      "submitCreate": "Create Add-on",
+      "submitUpdate": "Save Changes",
+      "cancel": "Cancel",
+      "successCreate": "Add-on created successfully.",
+      "successUpdate": "Add-on updated successfully.",
+      "errorNotFound": "Add-on not found.",
+      "errorGeneric": "Something went wrong. Please try again.",
+      "validation": {
+        "required": "This field is required.",
+        "invalidPriceMode": "Please select a valid pricing mode.",
+        "minZero": "Must be zero or greater.",
+        "flatPriceRequired": "Enter a price for the flat pricing mode.",
+        "atLeastOneSize": "Enter a price for at least one size."
+      }
+    },
+    "products": {
+      "metaTitle": "Products — PIZZATO",
+      "title": "Products",
+      "description": "Manage your store products and their option groups.",
+      "createNew": "Create Product",
+      "searchPlaceholder": "Search by name…",
+      "filterCategory": "Category",
+      "allCategories": "All categories",
+      "clearFilters": "Clear filters",
+      "emptyTitle": "No products found",
+      "emptyDescription": "Try adjusting your search or filters, or create a new product.",
+      "columns": {
+        "image": "Image",
+        "name": "Name",
+        "category": "Category",
+        "price": "Price",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "active": "Active",
+      "inactive": "Inactive",
+      "available": "Available",
+      "soldOut": "Sold Out",
+      "featured": "Featured",
+      "toggleActive": "Toggle active",
+      "toggleFeatured": "Toggle featured",
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirmDelete": "Delete this product? This cannot be undone.",
+      "actionError": "Something went wrong. Please try again.",
+      "currency": "EGP",
+      "pagination": {
+        "label": "Pagination",
+        "pageLabel": "Page",
+        "ofLabel": "of {totalPages}"
+      }
+    },
+    "productForm": {
+      "createTitle": "Create Product",
+      "editTitle": "Edit Product",
+      "sectionBasic": "Basic Info",
+      "sectionPricing": "Pricing & Status",
+      "sectionImages": "Images",
+      "labels": {
+        "nameAr": "Name (Arabic)",
+        "nameEn": "Name (English)",
+        "slug": "Slug",
+        "descriptionAr": "Description (Arabic)",
+        "descriptionEn": "Description (English)",
+        "category": "Category",
+        "sizesPrices": "Sizes & Prices",
+        "basePrice": "Base price (no sizes)",
+        "isActive": "Active",
+        "isAvailable": "Available",
+        "isFeatured": "Featured",
+        "isNew": "New item",
+        "sortOrder": "Sort Order",
+        "imageUrl": "Image URL",
+        "isPrimary": "Primary image",
+        "required": "Required",
+        "ingredients": "Ingredients",
+        "ingredientNameAr": "Ingredient Name (Arabic)",
+        "ingredientNameEn": "Ingredient Name (English)"
+      },
+      "sizeNames": {
+        "S": "S — Small",
+        "M": "M — Medium",
+        "L": "L — Large"
+      },
+      "placeholders": {
+        "nameAr": "e.g. بيتزا الخضروات",
+        "nameEn": "e.g. Vegetable Pizza",
+        "slug": "vegetable-pizza",
+        "descriptionAr": "A short description in Arabic…",
+        "descriptionEn": "A short description in English…",
+        "categorySelect": "Select a category",
+        "sizePrice": "Price (EGP)",
+        "imageUrl": "https://ik.imagekit.io/yourkit/product.jpg",
+        "ingredientNameAr": "e.g. جبن موزاريلا",
+        "ingredientNameEn": "e.g. Mozzarella"
+      },
+      "addImage": "Add Image",
+      "removeImage": "Remove image",
+      "addIngredient": "Add Ingredient",
+      "removeIngredient": "Remove ingredient",
+      "sizesPricesHint": "Set a price for each size you offer. Leave a size empty to hide it. If all sizes are empty, the product sells at the base price below.",
+      "ingredientsHint": "Listed under the product description. Names appear in both languages.",
+      "optgroupPizzaTypes": "Pizza types",
+      "optgroupOtherCategories": "Other categories",
+      "isNewHint": "Shows a New badge in the storefront.",
+      "submitCreate": "Create Product",
+      "submitUpdate": "Save Changes",
+      "cancel": "Cancel",
+      "successCreate": "Product created successfully.",
+      "successUpdate": "Product updated successfully.",
+      "errorSlugExists": "A product with this slug already exists.",
+      "errorNotFound": "Product not found.",
+      "errorGeneric": "Something went wrong. Please try again.",
+      "imageAltFallback": "Product image",
+      "validation": {
+        "required": "This field is required.",
+        "invalidSlug": "Use lowercase letters, numbers, and hyphens only.",
+        "invalidCategory": "Please select a valid category.",
+        "minZero": "Must be zero or greater.",
+        "sizeOrBaseRequired": "Set a base price or at least one size price."
+      }
+    },
+    "settings": {
+      "pageTitle": "Site Settings"
+    },
+    "settingsForm": {
+      "sectionBrand": "Brand Identity",
+      "sectionContact": "Contact & Social",
+      "sectionBranches": "Branches",
+      "sectionLocation": "Location & Hours",
+      "sectionMessages": "Messages",
+      "labels": {
+        "brandNameAr": "Brand Name (Arabic)",
+        "brandNameEn": "Brand Name (English)",
+        "phone": "Phone",
+        "email": "Email",
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "branchNameAr": "Branch Name (Arabic)",
+        "branchNameEn": "Branch Name (English)",
+        "branchAddressAr": "Branch Address (Arabic)",
+        "branchAddressEn": "Branch Address (English)",
+        "branchPhone": "Branch Phone",
+        "branchLocationLink": "Branch location link (Google Maps)",
+        "openingHoursAr": "Opening Hours (Arabic)",
+        "openingHoursEn": "Opening Hours (English)",
+        "contactMessageAr": "Contact Message (Arabic)",
+        "contactMessageEn": "Contact Message (English)"
+      },
+      "placeholders": {
+        "brandNameAr": "مثال: بيزاتو",
+        "brandNameEn": "e.g. PIZZATO",
+        "phone": "+123 456 7890",
+        "email": "hello@pizzato.eg",
+        "branchNameAr": "مثال: فرع القاهرة",
+        "branchNameEn": "e.g. Cairo Branch",
+        "branchAddressAr": "مثال: شارع التحلية، الرياض",
+        "branchAddressEn": "e.g. 123 Tahlia St, Riyadh",
+        "instagram": "https://instagram.com/youraccount",
+        "facebook": "https://facebook.com/youraccount",
+        "openingHoursAr": "السبت - الخميس: 9 صباحاً - 11 مساءً",
+        "openingHoursEn": "Sat–Thu: 9 AM – 11 PM",
+        "locationLink": "https://maps.app.goo.gl/...",
+        "contactMessageAr": "رسالة ترحيبية للزبائن",
+        "contactMessageEn": "A welcome message for customers"
+      },
+      "addBranch": "Add Branch",
+      "removeBranch": "Remove",
+      "branchCard": "Branch {number}",
+      "branchHint": "Add every shop branch. Each branch shows up on the contact page with its own address, phone and directions link.",
+      "submit": "Save Settings",
+      "successUpdate": "Settings saved successfully.",
+      "errorGeneric": "Something went wrong. Please try again.",
+      "logoAltFallback": "Site logo",
+      "faviconAltFallback": "Site favicon",
+      "validation": {
+        "required": "This field is required.",
+        "invalidUrl": "Please enter a valid URL starting with http:// or https://.",
+        "invalidCoordinate": "Please enter a valid coordinate in range.",
+        "invalidPhone": "Phone must only contain digits, spaces, dashes, parentheses and an optional leading +."
+      }
+    },
+    "imageUpload": {
+      "uploadPrompt": "Click to upload or drag and drop",
+      "uploading": "Uploading…",
+      "remove": "Remove image",
+      "replace": "Replace image",
+      "errorInvalidType": "Only image files are allowed",
+      "errorTooLarge": "File size must be less than 5MB",
+      "errorUploadFailed": "Failed to upload image"
+    }
+  }
+}

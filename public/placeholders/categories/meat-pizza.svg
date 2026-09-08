@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" role="img" aria-label="MEAT PIZZA">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbebdb"/>
+      <stop offset="1" stop-color="#f3d9c4"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="url(#bg)"/>
+  <circle cx="240" cy="150" r="65" fill="#ffffff" opacity="0.5"/>
+  <text x="240" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#6b010f">MEAT PIZZA</text>
+  <text x="240" y="212" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#8a2b33">بيتزا لحم</text>
+</svg>

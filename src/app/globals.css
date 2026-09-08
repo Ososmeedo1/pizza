@@ -1,0 +1,350 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+
+  /* PIZZATO light mode — warm cream + deep red */
+  --background: #fbebdb;
+  --surface: #fff6ec;
+  --foreground: #000101;
+  --muted: #f3ddcb;
+  --muted-foreground: #5c5248;
+  --primary: #6b010f;
+  --primary-foreground: #fbebdb;
+  --primary-bright: #e0565f;
+  --secondary: #e4d3c3;
+  --secondary-foreground: #5c5248;
+  --brand: #6b010f;
+  --brand-foreground: #fbebdb;
+  --border: #e4d3c3;
+  --input: #dfcbb8;
+  --ring: #6b010f;
+  --success: #3f7a50;
+  --success-foreground: #ffffff;
+  --warning: #b96a2e;
+  --warning-foreground: #ffffff;
+  --error: #b5453a;
+  --error-foreground: #ffffff;
+
+  /* Mobile-first compact spacing (section / card rhythm) */
+  --space-section-mobile: 2.5rem;
+  --space-section-desktop: 6rem;
+  --space-section: clamp(
+    var(--space-section-mobile),
+    8vw,
+    var(--space-section-desktop)
+  );
+  --space-card-mobile: 0.75rem;
+  --space-card-desktop: 1.5rem;
+  --space-card: clamp(var(--space-card-mobile), 3vw, var(--space-card-desktop));
+
+  /* Clay shadows — warm near-black tint in light mode */
+  --clay-soft: 0 2px 12px rgba(10, 5, 4, 0.07);
+  --clay: 0 8px 24px rgba(10, 5, 4, 0.11),
+    0 2px 8px rgba(10, 5, 4, 0.055);
+  --clay-sm: 0 2px 8px rgba(10, 5, 4, 0.07),
+    0 1px 3px rgba(10, 5, 4, 0.05);
+  --clay-md: 0 4px 16px rgba(10, 5, 4, 0.11),
+    0 2px 6px rgba(10, 5, 4, 0.07);
+  --clay-lg: 0 8px 32px rgba(10, 5, 4, 0.15),
+    0 4px 12px rgba(10, 5, 4, 0.09);
+  --clay-xl: 0 12px 40px rgba(10, 5, 4, 0.18),
+    0 6px 16px rgba(10, 5, 4, 0.1);
+
+  /* Red/cream brand gradient washes (subtle, never heavy) */
+  --wash-panel: linear-gradient(
+    120deg,
+    rgba(107, 1, 15, 0.07),
+    rgba(255, 246, 236, 0.55) 45%,
+    rgba(251, 235, 219, 0.2)
+  );
+}
+
+.dark {
+  color-scheme: dark;
+
+  /* PIZZATO dark mode — near-black with warm lifted surface */
+  --background: #000101;
+  --surface: #151110;
+  --foreground: #fbebdb;
+  --muted: #2a2320;
+  --muted-foreground: #b9aca0;
+  --primary: #6b010f;
+  --primary-foreground: #fbebdb;
+  --primary-bright: #e0565f;
+  --secondary: #2a2320;
+  --secondary-foreground: #e4d3c3;
+  --brand: #e0565f;
+  --brand-foreground: #fbebdb;
+  --border: #2a2320;
+  --input: #3a312e;
+  --ring: #e0565f;
+  --success: #7ab084;
+  --success-foreground: #122c18;
+  --warning: #d39a55;
+  --warning-foreground: #2b1f15;
+  --error: #e08a7a;
+  --error-foreground: #33100c;
+
+  /* Clay shadows — pure black, slightly higher alpha in dark mode */
+  --clay-soft: 0 2px 12px rgba(0, 0, 0, 0.3);
+  --clay: 0 8px 24px rgba(0, 0, 0, 0.4),
+    0 2px 8px rgba(0, 0, 0, 0.22);
+  --clay-sm: 0 2px 8px rgba(0, 0, 0, 0.32),
+    0 1px 3px rgba(0, 0, 0, 0.2);
+  --clay-md: 0 4px 16px rgba(0, 0, 0, 0.4),
+    0 2px 6px rgba(0, 0, 0, 0.24);
+  --clay-lg: 0 8px 32px rgba(0, 0, 0, 0.5),
+    0 4px 12px rgba(0, 0, 0, 0.3);
+  --clay-xl: 0 12px 40px rgba(0, 0, 0, 0.55),
+    0 6px 16px rgba(0, 0, 0, 0.32);
+
+  --wash-panel: linear-gradient(
+    120deg,
+    rgba(107, 1, 15, 0.22),
+    rgba(21, 17, 16, 0.5) 50%,
+    rgba(21, 17, 16, 0.25)
+  );
+}
+
+/* Respect system preference by default; html.dark / html.light override it. */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    color-scheme: dark;
+
+    --background: #000101;
+    --surface: #151110;
+    --foreground: #fbebdb;
+    --muted: #2a2320;
+    --muted-foreground: #b9aca0;
+    --primary: #6b010f;
+    --primary-foreground: #fbebdb;
+    --primary-bright: #e0565f;
+    --secondary: #2a2320;
+    --secondary-foreground: #e4d3c3;
+    --brand: #e0565f;
+    --brand-foreground: #fbebdb;
+    --border: #2a2320;
+    --input: #3a312e;
+    --ring: #e0565f;
+    --success: #7ab084;
+    --success-foreground: #122c18;
+    --warning: #d39a55;
+    --warning-foreground: #2b1f15;
+    --error: #e08a7a;
+    --error-foreground: #33100c;
+
+    --clay-soft: 0 2px 12px rgba(0, 0, 0, 0.3);
+    --clay: 0 8px 24px rgba(0, 0, 0, 0.4),
+      0 2px 8px rgba(0, 0, 0, 0.22);
+    --clay-sm: 0 2px 8px rgba(0, 0, 0, 0.32),
+      0 1px 3px rgba(0, 0, 0, 0.2);
+    --clay-md: 0 4px 16px rgba(0, 0, 0, 0.4),
+      0 2px 6px rgba(0, 0, 0, 0.24);
+--clay-lg: 0 8px 32px rgba(0, 0, 0, 0.5),
+    0 4px 12px rgba(0, 0, 0, 0.3);
+  --clay-xl: 0 12px 40px rgba(0, 0, 0, 0.55),
+    0 6px 16px rgba(0, 0, 0, 0.32);
+
+  --wash-panel: linear-gradient(
+    120deg,
+    rgba(107, 1, 15, 0.22),
+    rgba(21, 17, 16, 0.5) 50%,
+    rgba(21, 17, 16, 0.25)
+  );
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-bright: var(--primary-bright);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-error: var(--error);
+  --color-error-foreground: var(--error-foreground);
+
+  --font-sans: var(--font-montserrat), var(--font-cairo), ui-sans-serif,
+    system-ui, sans-serif;
+  --font-display: var(--font-rye), var(--font-montserrat), ui-serif, Georgia,
+    serif;
+
+  --shadow-soft: var(--clay-soft);
+  --shadow-clay: var(--clay);
+  --shadow-clay-sm: var(--clay-sm);
+  --shadow-clay-md: var(--clay-md);
+  --shadow-clay-lg: var(--clay-lg);
+  --shadow-clay-xl: var(--clay-xl);
+
+  --background-image-panel-wash: var(--wash-panel);
+}
+
+@theme {
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+
+  /* Mobile-first fluid typography — display sizes tuned ~10% down for Rye */
+  --text-display: clamp(2.25rem, 7.5vw, 4.5rem);
+  --text-h1: clamp(1.8rem, 5.75vw, 3.6rem);
+  --text-h2: clamp(1.6rem, 4.75vw, 2.7rem);
+  --text-h3: clamp(1.35rem, 4vw, 2.25rem);
+  --text-h4: clamp(1.15rem, 2.5vw, 1.875rem);
+  --text-body-lg: clamp(1rem, 1.5vw, 1.25rem);
+  --text-body: 1rem;
+  --text-caption: 0.875rem;
+  --text-overline: 0.75rem;
+
+  /* Editorial letter-spacing */
+  --tracking-tight: -0.01em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.02em;
+
+  /* Section rhythm utility (py-section) */
+  --spacing-section: var(--space-section);
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /**
+   * Arabic (Cairo) needs neutral letter-spacing — clamped tracking makes
+   * diacritics crowd. Desktop Latin keeps the editorial tracking.
+   */
+  html[lang="ar"] {
+    --tracking-tight: 0;
+    --tracking-wide: 0;
+  }
+
+  /* Display role: Rye (EN, single weight 400) / Cairo 900 (AR). */
+  html[lang="en"] .font-display {
+    font-family: var(--font-rye), var(--font-montserrat), ui-serif, Georgia,
+      serif;
+    font-weight: 400;
+    line-height: 1.25;
+  }
+
+  html[lang="ar"] .font-display {
+    font-family: var(--font-cairo), var(--font-montserrat), Arial,
+      Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 1.3;
+    letter-spacing: 0;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-montserrat), var(--font-cairo), Arial,
+      Helvetica, sans-serif;
+    font-size: var(--text-body);
+    -webkit-font-smoothing: antialiased;
+    transition-property: color, background-color, border-color;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+  }
+
+  /* Arabic is the default locale; Cairo leads, Montserrat covers Latin text. */
+  html[lang="ar"] body {
+    font-family: var(--font-cairo), var(--font-montserrat), Arial,
+      Helvetica, sans-serif;
+  }
+
+  ::selection {
+    background: var(--primary);
+    color: var(--primary-foreground);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+
+  /* Skip-link target: no visible frame on the whole content area.
+     The skip link itself is visibly styled on focus. */
+  #main-content:focus,
+  #main-content:focus-visible {
+    outline: none;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--muted-foreground);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@keyframes hero-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@layer utilities {
+  .animate-hero-spin {
+    animation: hero-spin 30s linear infinite;
+  }
+
+  .animate-marquee {
+    animation: marquee 20s linear infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-hero-spin,
+    .animate-marquee {
+      animation: none;
+    }
+  }
+}
