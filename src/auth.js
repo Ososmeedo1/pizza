@@ -14,6 +14,8 @@ export const authOptions = {
   trustHost: true,
   session: {
     strategy: "jwt",
+    maxAge: 15 * 60,
+    updateAge: 60,
   },
   providers: [
     CredentialsProvider({
